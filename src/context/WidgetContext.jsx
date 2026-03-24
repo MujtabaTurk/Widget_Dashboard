@@ -202,7 +202,6 @@ export const WidgetContextProvider = (props) => {
 
   const values = {
     widgets,
-    isLoading,
     setDevToArticles,
     setGitHubProfile,
     setGithubRepo,
