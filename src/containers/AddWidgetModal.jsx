@@ -11,20 +11,20 @@ export const AddWidgetModal = () => {
     onOpenDevTo,
     onOpenStackOverflow,
     onOpenHackerNews,
-    onClose,
+    onCloseModal,
   } = useWidgetContext();
   return (
     <>
       <div
         className="fixed inset-0 bg-black/40 flex items-center justify-center z-40"
-        onClick={onClose}
+        onClick={onCloseModal}
       />
       <div className="h-fit w-fit bg-gray-100 text-black rounded-[20px] fixed top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]  z-50! ">
         <div className="flex justify-between items-center mt-2 p-3 pl-6 ">
           <h3 className="text-[18px] font-medium ">Add Widget</h3>
           <span
             className="font-medium text-2xl cursor-pointer text-gray-500"
-            onClick={onClose}
+            onClick={onCloseModal}
           >
             <RxCross2 />
           </span>
