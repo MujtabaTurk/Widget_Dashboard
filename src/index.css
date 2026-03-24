@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Inter", "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  /* color: white; */
+  background-color: rgb(249, 249, 249);
+  /* background-color: black; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --font-jet-brain: "JetBrains Mono", monospace;
+}
