@@ -1,6 +1,6 @@
 import React from "react";
 import { RxCross2 } from "react-icons/rx";
-import { Modal } from "../components/Modal";
+// import { Modal } from "../components/Modal";
 import { GithubProfile } from "./GithubProfileModal";
 import { useWidgetContext } from "../hooks/useWidgetContext";
 
